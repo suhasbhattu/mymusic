@@ -1,0 +1,31 @@
+.Playlists-title {
+  color: #eaecee;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.Playlists-tiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.PlaylistTile {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: #1d232a;
+  border-radius: 0.5em;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.PlaylistTile:active {
+  background-color: #4db1ff;
+}
+
+.PlaylistTile-Name {
+  margin-block: 0.5rem;
+  color: #eaecee;
+  font-weight: bold;
+}

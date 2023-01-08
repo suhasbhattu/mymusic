@@ -1,0 +1,44 @@
+.App-header {
+  background-color: #1d232a;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #eaecee;
+  padding-inline-start: 1rem;
+}
+
+.App-header-text {
+  margin: 0;
+}
+
+.App-content {
+  margin-block-start: 1rem;
+  padding: 1rem;
+}
+
+.App-content-login {
+  text-align: center;
+  background-color: #1d232a;
+}
+
+.Login-button {
+  height: 2rem;
+  padding-inline: 0.4375rem;
+  background-color: #0070f2;
+  border-color: #0070f2;
+  color: #eaecee;
+  border-radius: 0.5rem;
+}
+
+.Login-button:hover {
+  background-color: #0064d9;
+}
+
+.Login-button:active {
+    background-color: #202932;
+}
+
+.Login-button-text {
+  font-weight: bolder;
+}

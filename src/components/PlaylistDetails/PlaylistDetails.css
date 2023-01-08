@@ -1,0 +1,84 @@
+.Playlist {
+  margin-inline: 5rem;
+}
+
+.Playlist-toolbar {
+  margin-inline: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Playlist-back-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+}
+
+.Playlist-back-button:hover {
+  background-color: #1d232a;
+}
+
+.Playlist-name {
+  color: #eaecee;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.Playlist-play-button {
+   color: #eaecee;
+   font-weight: bold;
+   background-color: #1d232a;
+   height: 2rem;
+   border: none;
+   border-radius: 0.5rem;
+   padding-inline: 0.5rem;
+}
+
+.Playlist-tracks {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 45rem;
+}
+
+.Playlist-track {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+  background-color: #1d232a;
+  border-radius: 0.5em;
+  padding: 0.5rem;
+  width: 90%;
+  align-items: center;
+}
+
+.Playlist-track-thumbnail {
+  width: 10%;
+  margin-inline: 0.5rem;
+}
+
+.Playlist-track-name {
+  color: #eaecee;
+  font-weight: bold;
+  width: 40%;
+  margin-inline: 0.5rem;
+}
+
+.Playlist-artist-name {
+  font-size: small;
+}
+
+.Playlist-track-album-name {
+  color: #eaecee;
+  width: 40%;
+  margin-inline: 0.5rem;
+}
+
+.Playlist-track-duration {
+  color: #eaecee;
+  width: 10%;
+  margin-inline: 0.5rem;
+}
